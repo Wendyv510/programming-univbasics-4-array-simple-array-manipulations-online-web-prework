@@ -44,3 +44,22 @@ def using con_cat
     
     def using_uniq
       haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler"]
+      .uniq(haircuts) = []
+    end
+    
+    def using_flatten
+      instruments = ["Saxophone", ["Piano", "Trumpet"],"Violin", "Drums", "Flute"],
+      flat_array = .flatten(instruments)
+    end
+    
+    def using_delete
+      instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
+      no_offense_steven = .delete(instructors, "Steven")
+    end 
+    
+    def using_delete_at
+      famous_robots = ["Johnny 5", "R2D2", "Robocop"]
+      deleted_robot = .delete_at(famous_robots,2)
+    end 
+    
+    
