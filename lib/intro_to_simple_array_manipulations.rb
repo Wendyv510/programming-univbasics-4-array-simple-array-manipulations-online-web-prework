@@ -37,4 +37,10 @@ def using con_cat
     end
     
     def using_insert
-      
+      list_of_programmming_languages = ["Ruby", "Javascript", "Java", "C#", "Objective C", "C++", "PHP"]
+      another_language= "Python"
+      .insert(list_of_programmming_languages,another_language)
+    end
+    
+    def using_uniq
+      haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler"]
